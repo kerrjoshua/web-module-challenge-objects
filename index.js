@@ -187,8 +187,9 @@ console.log('Task 7');
 
 function getLastReview(arr) {
   review = arr[arr.length - 1];
-  const string = review.name + ' gave the restaurant a ' + review.rating + ' star review, and their feedback was: ' + review.feedback;
-  return string
+  // const string = review.name + ' gave the restaurant a ' + review.rating + ' star review, and their feedback was: ' + review.feedback;
+  // return string
+  return `${review.name} gave the restaurant a ${review.rating} star review, and their feedback was: ${review.feedback}`;
 } 
 
 
